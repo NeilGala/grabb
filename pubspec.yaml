@@ -1,0 +1,48 @@
+name: grabb
+description: "An e-commerce app for shopping."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # Utility Packages
+#  http: ^1.4.0
+#  intl: ^0.20.2
+#  logger: ^2.6.1
+#  url_launcher: ^6.3.2
+
+  #Icons
+#  iconsax: ^0.0.8
+#  cupertino_icons: ^1.0.8
+
+  # State Management
+#  get: ^4.6.6
+#  get_storage: ^2.1.1
+
+  # Product Specific
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/logos/
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
+  #TODO: Adding Fonts
