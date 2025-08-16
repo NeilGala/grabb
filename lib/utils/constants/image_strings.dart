@@ -5,12 +5,19 @@ class TImages {
   TImages._();
 
   //App Logos
-  //TODO: Add actual image paths
-  static const String darkAppLogo = "";
-  static const String lightAppLogo = "";
+  static const String darkAppLogo = "assets/logos/grabb_logo_black.png";
+  static const String lightAppLogo = "assets/logos/grabb_logo_white.png";
 
   //Social Logos
   //TODO: Add actual image paths
   static const String google = "";
   static const String facebook = "";
+
+  //OnBoarding Images
+  static const String onBoardingImage1 =
+      "assets/images/on_boarding_images/photo1.gif";
+  static const String onBoardingImage2 =
+      "assets/images/on_boarding_images/photo2.png";
+  static const String onBoardingImage3 =
+      "assets/images/on_boarding_images/photo3.png";
 }
