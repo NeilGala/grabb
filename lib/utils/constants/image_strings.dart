@@ -9,8 +9,7 @@ class TImages {
   static const String lightAppLogo = "assets/logos/grabb_logo_white.png";
 
   //Social Logos
-  //TODO: Add actual image paths
-  static const String google = "";
+  static const String google = "assets/logos/google.png";
   static const String facebook = "";
 
   //OnBoarding Images
