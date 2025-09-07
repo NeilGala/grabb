@@ -1,6 +1,15 @@
 import 'package:flutter/material.dart';
 
 class TValidator {
+  //Empty Field Validation
+  static String? validateEmptyField(String? fieldName, String? value) {
+    if (value == null || value.isEmpty) {
+      return '$fieldName is required.';
+    }
+
+    return null;
+  }
+
   //Validating Email
   static String? validateEmail(String? value) {
     if (value == null || value.isEmpty) {

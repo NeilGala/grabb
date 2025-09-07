@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:grabb/features/authentication/controllers/onboarding_controller.dart';
+import 'package:grabb/features/authentication/controllers/onboarding/onboarding_controller.dart';
+import 'package:grabb/features/authentication/screens/onboarding/widgets/onboarding_dot_navigation.dart';
+import 'package:grabb/features/authentication/screens/onboarding/widgets/onboarding_next_button.dart';
+import 'package:grabb/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
+import 'package:grabb/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
 import 'package:grabb/utils/constants/colors.dart';
 import 'package:grabb/utils/constants/image_strings.dart';
 import 'package:grabb/utils/constants/text_strings.dart';
@@ -10,11 +14,6 @@ import 'package:grabb/utils/helpers/helper_functions.dart';
 import 'package:grabb/utils/constants/sizes.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:iconsax/iconsax.dart';
-
-import '../widgets/onboarding_dot_navigation.dart';
-import '../widgets/onboarding_next_button.dart';
-import '../widgets/onboarding_page.dart';
-import '../widgets/onboarding_skip.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});

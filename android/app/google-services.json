@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "581582765163",
+    "project_id": "grabb-38bd6",
+    "storage_bucket": "grabb-38bd6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581582765163:android:6a11cad0c8cbe4c6ed052e",
+        "android_client_info": {
+          "package_name": "com.example.grabb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581582765163-22hg4rjnb17kj5uqfe0n525i48cu7q3p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grabb",
+            "certificate_hash": "44961f62a1fe446e25e6bd1d7c5e7cbb2b4232a7"
+          }
+        },
+        {
+          "client_id": "581582765163-peq7bv901d51g15ginum78uhroppshd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTes8FQsBrlh2iRVBr0zDkm262vs_byCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581582765163-peq7bv901d51g15ginum78uhroppshd1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "581582765163-mforn61cvpsg21vvse6erjjaih4hrj2o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.grabb"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:grabb/bindings/general_bindings.dart';
 import 'package:grabb/features/authentication/screens/onboarding/onboarding.dart';
+import 'package:grabb/utils/constants/colors.dart';
 
 //Importing Themes
 import 'utils/theme/theme.dart';
@@ -14,7 +16,15 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
-      home: const OnBoardingScreen(),
+      initialBinding: GeneralBindings(),
+
+      //Show Loader or Circular Progress Indicator meanwhile Authentication repository is deciding to show relevant screen
+      home: const Scaffold(
+        backgroundColor: TColors.primary,
+        body: Center(
+          child: CircularProgressIndicator(color: TColors.white),
+        ),
+      ),
     );
   }
 }
